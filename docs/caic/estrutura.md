@@ -1,10 +1,12 @@
 
+### Introdução
+---
 O Catecismo da Igreja Católica está divida em 4 pilares:
 
-	1. A profissão da fé batismal (Símbolo)
-	2. Os sacramentos da fé
-	3. A vida da fé (Mandamentos)
-	4. A oração do crente (Pai Nosso)
+ 1. A profissão da fé batismal (Símbolo)
+ 2. Os sacramentos da fé
+ 3. A vida da fé (Mandamentos)
+ 4. A oração do crente (Pai Nosso)
 
 ### PROLOGO
 ---
@@ -15,22 +17,22 @@ O Catecismo da Igreja Católica está divida em 4 pilares:
 	V. Indicações práticas para o uso deste catecismo
 	VI. Adaptações necessárias
 
-### PRIMEIRA PARTE (A PROFISSÃO DE FÉ)
+### 1. PRIMEIRA PARTE (A PROFISSÃO DE FÉ)
 ---
-	Aqueles que, pela fé e pelo batismo, pertencem a Cristo, devem confessar a sua fé batismal diante dos homens.
+Aqueles que, pela fé e pelo batismo, pertencem a Cristo, devem confessar a sua fé batismal diante dos homens.
 
-	### PRIMEIRA SEÇÃO (A fé pelo qual o homem responde a Deus)
-	---
-		O catecismo começa por expor a Revelação, pela qual Deus Se dirige e Se dá ao homem, e a fé 	pelo qual o homem responde a Deus.
+### 1.1. PRIMEIRA SEÇÃO (A fé pelo qual o homem responde a Deus)
+---
+O catecismo começa por expor a Revelação, pela qual Deus Se dirige e Se dá ao homem, e a fé 	pelo qual o homem responde a Deus.
 
-		### CAPÍTULO PRIMEIRO (O homem é capaz de Deus)
-		---
-			A busca do homem pelo sentido último da sua vida.
+### 1.1.1. CAPÍTULO PRIMEIRO (O homem é capaz de Deus)
+---
+A busca do homem pelo sentido último da sua vida.
 
-			I. O desejo de Deus
-			II. Os caminhos de acesso ao conhecimento de Deus
-			III. O conhecimento de Deus segundo a Igreja
-			IV. Como falar de Deus
+  I. O desejo de Deus
+  II. Os caminhos de acesso ao conhecimento de Deus
+  III. O conhecimento de Deus segundo a Igreja
+  IV. Como falar de Deus
 
 		CAPÍTULO SEGUNDO (Deus ao encontro do homem)
 		---
