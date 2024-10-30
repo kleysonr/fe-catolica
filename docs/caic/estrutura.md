@@ -1,21 +1,21 @@
 
 ### Introdução
----
+
 O Catecismo da Igreja Católica está divida em 4 pilares:
 
- 1. A profissão da fé batismal (Símbolo)
- 2. Os sacramentos da fé
- 3. A vida da fé (Mandamentos)
- 4. A oração do crente (Pai Nosso)
+  1. A profissão da fé batismal (Símbolo)
+  2. Os sacramentos da fé
+  3. A vida da fé (Mandamentos)
+  4. A oração do crente (Pai Nosso)
 
 ### PROLOGO
----
-	I. A vida do homem - conhecer e amar a Deus
-	II. Transmitir a fé - a catequese
-	III. Finalidade e destinatário deste catecismo
-	IV. Estrutura deste catecismo
-	V. Indicações práticas para o uso deste catecismo
-	VI. Adaptações necessárias
+
+> I. A vida do homem - conhecer e amar a Deus
+> II. Transmitir a fé - a catequese
+> III. Finalidade e destinatário deste catecismo
+> IV. Estrutura deste catecismo
+> V. Indicações práticas para o uso deste catecismo
+> VI. Adaptações necessárias
 
 ### 1. PRIMEIRA PARTE (A PROFISSÃO DE FÉ)
 ---
