@@ -1,1 +1,121 @@
-ola
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Documentação</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" /> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs@v1.x/themes/prism.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        basePath: "/pages/",
+        homepage: "home.md",
+        loadSidebar: true,
+        routeMode: "history",
+        name: "<span>Fé Católica</span>",
+        subMaxLevel: 3,
+        auto2top: true,
+        pagination: {
+          previousText: "Anterior",
+          nextText: "Próximo",
+          crossChapter: false,
+          crossChapterText: false
+        },
+        search: {
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: "Buscar...",
+          noData: "Nenhum resultado encontrado.",
+          hideOtherSidebarContent: false
+        },
+        tabs: {
+          theme: "material"
+        }
+      };
+    </script>
+    <!-- Docsify-->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <!-- https://prismjs.com/#supported-languages -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-avro-idl.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-awk.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-bash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-clojure.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-csharp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-cshtml.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-css.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-css-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-csv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-docker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-git.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-go.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-go-module.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-gradle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-graphql.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-groovy.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-ignore.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-ini.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-java.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-javadoc.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-javadoclike.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-javascript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-javastacktrace.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-js-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-js-templates.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-jsdoc.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-json.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-json5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-jsonp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-jsstacktrace.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-kotlin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-latex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-latte.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-less.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-liquid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-llvm.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-log.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-lua.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-markdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-markup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-markup-templating.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-matlab.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-mongodb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-objectivec.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-perl.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-php.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-php-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-phpdoc.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-plsql.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-powerquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-powershell.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-protobuf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-puppet.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-python.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-r.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-regex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-rest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-scala.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-scheme.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-scss.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-shell-session.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-sql.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-swift.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-toml.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-typescript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-vim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-visual-basic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-yaml.min.js"></script>
+  </body>
+</html>
